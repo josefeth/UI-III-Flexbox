@@ -4,6 +4,97 @@
 	margin:0;
 	max-width:100%;
   }
+/*home page*/
+.headerOne{
+	display:flex;
+	justify-content:space-between;
+}
+.homeSec{
+	display: flex;
+	justify-content: flex-start;
+}
+.homeBody h1{
+	
+	height: 60%;
+    margin: 10% 0 0 20%;
+    color:black;
+	text-align: center;
+	font-size: 80px;
+	width: 50%;
+}
+ 
+
+.homeBody p{
+	text-align: center;
+	margin: 2% 0 2% 25%;
+	width:40%;
+	height: 50px;
+	border: 3px solid black;
+}
+
+.topLogo{
+	padding:5% 8% 0 0;
+}
+
+.homeTop{
+	display:flex;
+	margin:0 auto;
+	width:80%;
+}
+
+.features{
+	padding:5%;
+	
+}
+
+.about{
+	display: flex;
+	padding:5%;
+	
+}
+
+.topMiddle-img{
+	display: flex;
+	justify-content: center;
+}
+
+.topMiddle-img .middle-img{
+	display: flex;
+	align-items: center;
+	
+}
+
+.last{
+	display: flex;
+	padding:0 10% 10%;
+}
+
+.service{
+	display: flex;
+	padding:5%;
+	
+}
+
+.product{
+	display: flex;
+	padding:5%;
+	
+}
+
+.vision{
+	display: flex;
+	padding:5%;
+	
+}
+
+.contact{
+	margin: 0 0 0 10%;
+    display: inline-block;
+	width: 23%;
+	
+}
+/*service page*/
+
 body{
 	margin: 0 auto;
     width: 1200px;
@@ -244,4 +335,25 @@ footer{
 	border-top: 2px solid black;
 	width:92%;
 	margin:0 auto;
+}
+
+/*about me page*/
+.aboutMe{
+	text-align: center;
+	margin: 10% 0 0 25%;
+	width:50%;
+	height: 200px;
+}
+.aboutMe img{
+ border: 5px solid black;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;;
+}
+
+.aboutMe-img{
+	height:400px;
+	width:92%;
 }
