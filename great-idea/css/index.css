@@ -1,66 +1,359 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	max-width:100%;
+  }
+/*home page*/
+.headerOne{
+	display:flex;
+	justify-content:space-between;
+}
+.homeSec{
+	display: flex;
+	justify-content: flex-start;
+}
+.homeBody h1{
+	
+	height: 60%;
+    margin: 10% 0 0 20%;
+    color:black;
+	text-align: center;
+	font-size: 80px;
+	width: 50%;
+}
+ 
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+.homeBody p{
+	text-align: center;
+	margin: 2% 0 2% 25%;
+	width:40%;
+	height: 50px;
+	border: 3px solid black;
 }
 
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+.topLogo{
+	padding:5% 8% 0 0;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+.homeTop{
+	display:flex;
+	margin:0 auto;
+	width:80%;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+.features{
+	padding:5%;
+	
 }
 
+.about{
+	display: flex;
+	padding:5%;
+	
+}
+
+.topMiddle-img{
+	display: flex;
+	justify-content: center;
+}
+
+.topMiddle-img .middle-img{
+	display: flex;
+	align-items: center;
+	
+}
+
+.last{
+	display: flex;
+	padding:0 10% 10%;
+}
+
+.service{
+	display: flex;
+	padding:5%;
+	
+}
+
+.product{
+	display: flex;
+	padding:5%;
+	
+}
+
+.vision{
+	display: flex;
+	padding:5%;
+	
+}
+
+.contact{
+	margin: 0 0 0 10%;
+    display: inline-block;
+	width: 23%;
+	
+}
+/*service page*/
+
+body{
+	margin: 0 auto;
+    width: 1200px;
+
+}
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*header*/
+header nav{
+	display:flex;
+	justify-content:space-between;
+	width:88%;
+	font-size:20px;
+	margin: 0 auto;
+  }
+
+.container{
+	display: flex;
+	justify-content: space-evenly;
+	width:100%;
+	margin: 0 0 0 6%;
+	padding:0 12% 0 0;
+}
+
+.container a{
+	color:gray 
+}
+
+.logo{
+	margin:0 0 0 10px;
+}
+
+.topImg{
+	display: flex;
+	justify-content: center;
+}
+
+.topImg .services-header-img{
+	display: flex;
+	justify-content: center;
+	width:88%;
+	
+}
+
+.containerOne{
+	display: flex;
+	justify-content: flex-start;
+	margin:2px auto;
+	width:100%;
+}
+.text{
+	display: flex;
+	justify-content: center;
+	padding:5%;
+}
+.text .service{
+	width:50%;
+	flex-basis: content;
+}
+
+.service h3{
+	line-height: 40px;
+}
+ /*first section*/
+.bodyOne{
+	display: flex;	
+	margin: 0 auto;
+	gap:50px;
+	padding: 50px;
+	
+}
+
+.ddBody{
+	border:2px solid black;
+	padding:5%;
+	background-color: lightgray;
+}
+
+.dd h4{
+	line-height: 40px;;
+}
+/* .ddBody .dd{
+	width:50%;
+	flex-basis: content;
+} */
+
+.ux{
+	display: flex;
+	border:2px solid black;
+	padding:5%;
+	background-color: lightgray;
+}
+.ux h4{
+	line-height: 40px;;
+}
+/* .ux .uxBody{
+	width:50%;
+	flex-basis: content;
+} */
+/*second section*/
+.bodyTwo{
+	display: flex;	
+	margin:0 auto;
+	gap:50px;
+	padding: 50px;
+	
+}
+.dmBody{
+	border:2px solid black;
+	padding:5%;
+	background-color: lightgray;
+}
+
+.dm h4{
+	line-height: 40px;
+}
+
+.wdBody{
+	display: flex;
+	justify-content: center;
+	border:2px solid black;
+	padding:5%;
+	background-color: lightgray;
+}
+
+.wd {
+	width:50%;
+	flex-basis: content;
+}
+.wd h4{
+	line-height: 40px;;
+}
+/*third section*/
+.bodyThree{
+	display: flex;
+	justify-content: flex-start;
+	margin:0 auto;
+	gap:50px;
+	padding: 50px;
+	
+}
+.iosBody{
+	border:2px solid black;
+	padding:5%;
+	background-color: lightgray;
+}
+
+.ios h4{
+	line-height: 40px;;
+}
+/* .iosBody .ios{
+	width:50%;
+	flex-basis: content;
+} */
+
+.ad{
+	/* width:50%;
+	flex-basis: content; */
+	display: flex;
+	justify-content: center;
+	border:2px solid black;
+	padding:5%;
+	background-color: lightgray;
+}
+
+.adBody{
+	/* display: flex;
+	justify-content: center;
+	border:2px solid black;
+	padding:10%; */
+	width:50%;
+	flex-basis: content;
+	
+}
+
+.adBody h4{
+	line-height: 40px;;
+}
+
+
+
+.wdBody{
+	display: flex;
+	justify-content: center;
+	border:2px solid black;
+	padding:5%;
+}
+
+.wd .wdBody{
+	width:50%;
+	flex-basis: content;
+}
+/*bottom section*/
+.bottom{
+	display: flex;
+	justify-content: flex-start;
+	margin:0 auto;
+	grid-gap:5px;
+	width: 88%;
+}
+
+.bottomBody{
+	padding:5%;
+	width:50%;
+}
+
+.bb li{
+	line-height: 10px;
+	margin: 5%;
+}
+
+.bb h4{
+	line-height: 40px;
+	
+}
+
+.bottomPic{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 8px 0 0 0;
+	
+}
+
+footer{
+	text-align: center;
+	margin: 5%;
+}
+
+.learnMore{
+	text-align: center;
+	margin: 10% 0 0 25%;
+	border: 3px solid black;
+	width:50%;
+}
+
+.line{
+	border-top: 2px solid black;
+	width:92%;
+	margin:0 auto;
+}
+
+/*about me page*/
+.aboutMe{
+	text-align: center;
+	margin: 10% 0 0 25%;
+	width:50%;
+	height: 200px;
+}
+.aboutMe img{
+ border: 5px solid black;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;;
+}
+
+.aboutMe-img{
+	height:400px;
+	width:92%;
+}
